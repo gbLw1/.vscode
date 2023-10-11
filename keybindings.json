@@ -1,0 +1,50 @@
+[
+  {
+    "key": "ctrl+d",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal'",
+    "args": {
+      "after": ["<C-d>", "z", "z"]
+    }
+  },
+  {
+    "key": "ctrl+u",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal'",
+    "args": {
+      "after": ["<C-u>", "z", "z"]
+    }
+  },
+  {
+    "key": "j",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal'",
+    "args": {
+      "after": ["j", "z", "z"]
+    }
+  },
+  {
+    "key": "k",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal'",
+    "args": {
+      "after": ["k", "z", "z"]
+    }
+  },
+  {
+    "key": "shift+[",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal'",
+    "args": {
+      "after": ["{", "z", "z"]
+    }
+  },
+  {
+    "key": "shift+]",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal'",
+    "args": {
+      "after": ["}", "z", "z"]
+    }
+  }
+]
